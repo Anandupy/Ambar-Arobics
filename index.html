@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Antriksh Antigravity Yoga Studio in Kandivali West, Mumbai. Specializing in aerial yoga, power yoga, women's meditation, and aerobics.">
+    <meta name="keywords" content="aerial yoga kandivali west, antigravity yoga mumbai, power yoga kandivali, meditation classes women mumbai, aerobics kandivali">
+    <title>Antriksh Antigravity Yoga Studio | Kandivali West, Mumbai</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Antriksh <span>Yoga</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#postures">Postures</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in">Antriksh Antigravity Yoga</h1>
+            <h2 class="fade-in">Kandivali West, Mumbai</h2>
+            <p class="fade-in">Elevate Your Practice with Aerial Hammocks - Power Yoga - Women's Meditation Classes</p>
+            <div class="hero-btns fade-in">
+                <a href="#postures" class="btn btn-primary">Explore 50+ Yoga Postures</a>
+                <a href="https://wa.me/919876543210" target="_blank" class="btn btn-secondary">Book Class Now</a>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. ABOUT SECTION -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image fade-in">
+                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80" alt="Yoga Studio">
+                </div>
+                <div class="about-text fade-in">
+                    <h2>Professional Aerial Yoga Studio in Kandivali West</h2>
+                    <p>Antriksh Antigravity Yoga specializes in hammock-based aerial yoga for women, power yoga classes, and meditation. Our certified instructors focus on health benefits, spinal decompression, flexibility, and stress relief. Perfect for all levels - beginners to advanced.</p>
+                    <div class="stats-row">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Students Trained</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Posture Variations</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. YOGA POSTURES GALLERY -->
+    <section id="postures" class="postures section-padding">
+        <div class="container">
+            <h2 class="section-title">Master 50+ Yoga Postures</h2>
+            
+            <div class="filter-container">
+                <label for="posture-filter">Filter by Category:</label>
+                <select id="posture-filter" class="filter-dropdown">
+                    <option value="all">All Postures</option>
+                    <option value="antigravity">Antigravity</option>
+                    <option value="power-yoga">Power Yoga</option>
+                    <option value="meditation">Meditation & Women</option>
+                    <option value="aerobics">Aerobics Flow</option>
+                </select>
+            </div>
+
+            <div class="postures-grid" id="postures-grid">
+                <!-- Posture cards will be generated here by JS or hardcoded -->
+                <!-- 16 MANDATORY POSTURE CARDS -->
+                
+                <!-- ANTIGRAVITY -->
+                <div class="posture-card fade-in" data-category="antigravity">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1599447421416-3414500d18a5?auto=format&fit=crop&w=400&h=300&q=80" alt="Flying Savasana" loading="lazy">
+                        <span class="category-badge antigravity">Antigravity</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Flying Savasana</h3>
+                        <p>Ultimate relaxation in hammock</p>
+                        <ul>
+                            <li>Spinal decompression</li>
+                            <li>Stress relief</li>
+                            <li>Mental clarity</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★☆☆</span> Beginner
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posture-card fade-in" data-category="antigravity">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1591343395082-e120087024b4?auto=format&fit=crop&w=400&h=300&q=80" alt="Star Pose" loading="lazy">
+                        <span class="category-badge antigravity">Antigravity</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Star Pose</h3>
+                        <p>Open hips in inversion</p>
+                        <ul>
+                            <li>Core strength</li>
+                            <li>Flexibility</li>
+                            <li>Improved circulation</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★★☆</span> Intermediate
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posture-card fade-in" data-category="antigravity">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=400&h=300&q=80" alt="Bat Hang" loading="lazy">
+                        <span class="category-badge antigravity">Antigravity</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Bat Hang</h3>
+                        <p>Full spinal release</p>
+                        <ul>
+                            <li>Gravity therapy</li>
+                            <li>Digestion</li>
+                            <li>Back pain relief</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★☆☆</span> Beginner
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posture-card fade-in" data-category="antigravity">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=400&h=300&q=80" alt="Inverted Warrior" loading="lazy">
+                        <span class="category-badge antigravity">Antigravity</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Inverted Warrior</h3>
+                        <p>Balance + stretch</p>
+                        <ul>
+                            <li>Leg strength</li>
+                            <li>Focus</li>
+                            <li>Upper body opening</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★★★</span> Advanced
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posture-card fade-in" data-category="antigravity">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?auto=format&fit=crop&w=400&h=300&q=80" alt="Hammock Pigeon" loading="lazy">
+                        <span class="category-badge antigravity">Antigravity</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Hammock Pigeon</h3>
+                        <p>Deep hip opener</p>
+                        <ul>
+                            <li>Mobility</li>
+                            <li>Emotional release</li>
+                            <li>Sciatica relief</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★★☆</span> Intermediate
+                        </div>
+                    </div>
+                </div>
+
+                <!-- POWER YOGA -->
+                <div class="posture-card fade-in" data-category="power-yoga">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1508921334112-4c6efc1c4c4c?auto=format&fit=crop&w=400&h=300&q=80" alt="Warrior I" loading="lazy">
+                        <span class="category-badge power-yoga">Power Yoga</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Warrior I</h3>
+                        <p>Leg power foundation</p>
+                        <ul>
+                            <li>Stability</li>
+                            <li>Confidence</li>
+                            <li>Shoulder mobility</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★☆☆</span> Beginner
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posture-card fade-in" data-category="power-yoga">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1510894347713-fc3ad6cb0d4d?auto=format&fit=crop&w=400&h=300&q=80" alt="Warrior II" loading="lazy">
+                        <span class="category-badge power-yoga">Power Yoga</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Warrior II</h3>
+                        <p>Endurance flow</p>
+                        <ul>
+                            <li>Hip opening</li>
+                            <li>Focus</li>
+                            <li>Leg endurance</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★★☆</span> Intermediate
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posture-card fade-in" data-category="power-yoga">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1549576490-b0b4831da60a?auto=format&fit=crop&w=400&h=300&q=80" alt="Chair Pose" loading="lazy">
+                        <span class="category-badge power-yoga">Power Yoga</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Chair Pose</h3>
+                        <p>Full body burn</p>
+                        <ul>
+                            <li>Glutes & Quads</li>
+                            <li>Core strength</li>
+                            <li>Ankle stability</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★★☆</span> Intermediate
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posture-card fade-in" data-category="power-yoga">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1566241440091-ec10de8db2e1?auto=format&fit=crop&w=400&h=300&q=80" alt="Plank" loading="lazy">
+                        <span class="category-badge power-yoga">Power Yoga</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Plank</h3>
+                        <p>Core of strength</p>
+                        <ul>
+                            <li>Abs & Shoulders</li>
+                            <li>Posture</li>
+                            <li>Full body tension</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★☆☆</span> Beginner
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posture-card fade-in" data-category="power-yoga">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1599447292180-45fd882c82f9?auto=format&fit=crop&w=400&h=300&q=80" alt="Crow Pose" loading="lazy">
+                        <span class="category-badge power-yoga">Power Yoga</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Crow Pose</h3>
+                        <p>Arm balance mastery</p>
+                        <ul>
+                            <li>Wrist strength</li>
+                            <li>Balance</li>
+                            <li>Core engagement</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★★★</span> Advanced
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MEDITATION & WOMEN -->
+                <div class="posture-card fade-in" data-category="meditation">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=400&h=300&q=80" alt="Lotus Pose" loading="lazy">
+                        <span class="category-badge meditation">Meditation</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Lotus Pose</h3>
+                        <p>Meditation base</p>
+                        <ul>
+                            <li>Hip opening</li>
+                            <li>Calm mind</li>
+                            <li>Spinal alignment</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★★☆</span> Intermediate
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posture-card fade-in" data-category="meditation">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1517130038641-a774d04afb3c?auto=format&fit=crop&w=400&h=300&q=80" alt="Child's Pose" loading="lazy">
+                        <span class="category-badge meditation">Meditation</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Child's Pose</h3>
+                        <p>Rest + surrender</p>
+                        <ul>
+                            <li>Back relief</li>
+                            <li>Grounding</li>
+                            <li>Nervous system calm</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★☆☆</span> Beginner
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posture-card fade-in" data-category="meditation">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=400&h=300&q=80" alt="Legs Up Wall" loading="lazy">
+                        <span class="category-badge meditation">Meditation</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Legs Up Wall</h3>
+                        <p>Recovery essential</p>
+                        <ul>
+                            <li>Circulation</li>
+                            <li>Relaxation</li>
+                            <li>Lymphatic drainage</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★☆☆</span> Beginner
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posture-card fade-in" data-category="meditation">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1508921334112-4c6efc1c4c4c?auto=format&fit=crop&w=400&h=300&q=80" alt="Goddess Pose" loading="lazy">
+                        <span class="category-badge meditation">Women Wellness</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Goddess Pose</h3>
+                        <p>Women empowerment</p>
+                        <ul>
+                            <li>Pelvic floor strength</li>
+                            <li>Leg power</li>
+                            <li>Energy flow</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★★☆</span> Intermediate
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AEROBICS FLOW -->
+                <div class="posture-card fade-in" data-category="aerobics">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=400&h=300&q=80" alt="Dance Warrior" loading="lazy">
+                        <span class="category-badge aerobics">Aerobics</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Dance Warrior</h3>
+                        <p>Zumba yoga fusion</p>
+                        <ul>
+                            <li>Cardio health</li>
+                            <li>Coordination</li>
+                            <li>Rhythm & Flow</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★☆☆</span> Beginner
+                        </div>
+                    </div>
+                </div>
+
+                <div class="posture-card fade-in" data-category="aerobics">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=400&h=300&q=80" alt="Power Lunge Flow" loading="lazy">
+                        <span class="category-badge aerobics">Aerobics</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Power Lunge Flow</h3>
+                        <p>Dynamic movement</p>
+                        <ul>
+                            <li>Leg strength</li>
+                            <li>Balance</li>
+                            <li>Metabolic boost</li>
+                        </ul>
+                        <div class="difficulty">
+                            <span>Difficulty:</span>
+                            <span class="stars">★★☆</span> Intermediate
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. CLASSES & PRICING -->
+    <section id="classes" class="classes section-padding">
+        <div class="container">
+            <h2 class="section-title">Choose Your Perfect Class</h2>
+            <div class="table-responsive">
+                <table class="pricing-table">
+                    <thead>
+                        <tr>
+                            <th>Class Type</th>
+                            <th>Description</th>
+                            <th>Duration</th>
+                            <th>Price</th>
+                            <th>Schedule</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Class Type">Aerial Antigravity</td>
+                            <td data-label="Description">Hammock inversions + flow</td>
+                            <td data-label="Duration">3 Months</td>
+                            <td data-label="Price">₹8900</td>
+                            <td data-label="Schedule">Mon/Wed/Fri 7AM, 7PM</td>
+                            <td data-label="Action"><a href="https://wa.me/919876543210?text=I'm interested in Aerial Antigravity class" class="btn btn-sm">Book WhatsApp</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Class Type">Power Yoga</td>
+                            <td data-label="Description">Dynamic strength flow</td>
+                            <td data-label="Duration">6 Months</td>
+                            <td data-label="Price">₹14999</td>
+                            <td data-label="Schedule">Daily 6AM, 8PM</td>
+                            <td data-label="Action"><a href="https://wa.me/919876543210?text=I'm interested in Power Yoga class" class="btn btn-sm">Book WhatsApp</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Class Type">Women Zumba Flow</td>
+                            <td data-label="Description">Dance fitness fusion</td>
+                            <td data-label="Duration">3 Months</td>
+                            <td data-label="Price">₹8900</td>
+                            <td data-label="Schedule">Tue/Thu 6PM</td>
+                            <td data-label="Action"><a href="https://wa.me/919876543210?text=I'm interested in Women Zumba Flow class" class="btn btn-sm">Book WhatsApp</a></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Class Type">Meditation Healing</td>
+                            <td data-label="Description">Guided relaxation</td>
+                            <td data-label="Duration">6 Months</td>
+                            <td data-label="Price">₹14800</td>
+                            <td data-label="Schedule">Daily 9AM</td>
+                            <td data-label="Action"><a href="https://wa.me/919876543210?text=I'm interested in Meditation Healing class" class="btn btn-sm">Book WhatsApp</a></td>
+                        </tr>
+                        <tr class="featured-row">
+                            <td data-label="Class Type">Monthly Unlimited</td>
+                            <td data-label="Description">All classes access</td>
+                            <td data-label="Duration">1 Year</td>
+                            <td data-label="Price">₹52,000</td>
+                            <td data-label="Schedule">Anytime</td>
+                            <td data-label="Action"><a href="https://wa.me/919876543210?text=I'm interested in Monthly Unlimited plan" class="btn btn-sm">Book WhatsApp</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. LOCATION & CONTACT -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info fade-in">
+                    <h2>Visit Us Today</h2>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.89668514336!2d72.8315123!3d19.2007897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b12f68b369c7%3A0x8849646b1464c53c!2sMahavir%20Nagar%2C%20Kandivali%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1641912345678!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="info-details">
+                        <p><i class="fas fa-map-marker-alt"></i> Antriksh Antigravity Yoga, Kandivali West, Near Panchsheel Joggers Park, Mahavir Nagar, Mumbai</p>
+                        <p><i class="fas fa-clock"></i> Mon-Sun: 6:00 AM - 10:00 PM</p>
+                        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                        <p><i class="fas fa-envelope"></i> info@antrikshyoga.com</p>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="https://wa.me/919876543210"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container fade-in">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Antriksh Antigravity Yoga Studio. All Rights Reserved.</p>
+            <a href="#" class="back-to-top" id="back-to-top"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <!-- Modal for Posture Details -->
+    <div id="posture-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body">
+                <!-- Content injected by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
